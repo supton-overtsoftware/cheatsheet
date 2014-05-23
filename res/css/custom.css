@@ -50,6 +50,13 @@
     margin-left: 2em;
 }
 
+.clip_button {
+    font-size: 14pt;
+    margin-left: 6px;
+    margin-top: 11px;
+    vertical-align: top;
+}
+
 .label-git {
 	background-color: #428BCA;
 }
@@ -61,6 +68,11 @@
 .label {
     vertical-align: middle;
     margin: 2px;
+}
+
+pre.prettyprint {
+	display: inline-block;
+    width: 93%;
 }
 
 @media screen and (min-width:992px) {

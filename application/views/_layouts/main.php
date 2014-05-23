@@ -11,6 +11,7 @@
     <script type="text/javascript" src="<?php echo site_url('res/js/jquery-2.1.1.min.js') ?>"></script>
     <script type="text/javascript" src="<?php echo site_url('res/js/bootstrap.min.js') ?>"></script>
     <script type="text/javascript" src="<?php echo site_url('res/prettify/prettify.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo site_url('res/zeroclipboard-1.3.5/ZeroClipboard.min.js') ?>"></script>
     <script>
 	    !function ($) {
 	        $(function(){

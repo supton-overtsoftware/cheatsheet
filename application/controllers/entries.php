@@ -16,7 +16,8 @@ class Entries extends MY_Controller {
 	}
 	
 	public function add() {
-		if (!empty($this->input->post())) {
+		$posted = $this->input->post();
+		if (!empty($posted)) {
 			$entry['title']				= $this->input->post('title');
 			$entry['tags'] 				= $this->input->post('tags');
 			$entry['code']	 			= $this->input->post('code');
@@ -29,7 +30,8 @@ class Entries extends MY_Controller {
 	}
 	
 	public function edit($id) {
-		if (!empty($this->input->post())) {
+		$posted = $this->input->post();
+		if (!empty($posted)) {
 			$entry['id']				= $this->input->post('id');
 			$entry['title']				= $this->input->post('title');
 			$entry['tags'] 				= $this->input->post('tags');

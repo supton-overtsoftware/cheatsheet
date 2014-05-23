@@ -1,3 +1,8 @@
-RewriteEngine on
-RewriteCond $1 !^(index\.php|res|images|robots\.txt|test\.html)
-RewriteRule ^(.*)$ index.php?$1 [L]
+RewriteEngine On
+RewriteBase /cheat
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|images|robots\.txt|css|docs|js|system)
+RewriteRule ^(.*)$ /cheat/index.php?/$1 [L]
+

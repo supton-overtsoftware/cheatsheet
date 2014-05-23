@@ -47,7 +47,14 @@
 
 .entry-desc {
 	margin-bottom: 1em;
+}
+
+.entry-content {
     margin-left: 2em;
+}
+
+pre.prettyprint {
+	width: 100%;
 }
 
 .clip_button {
@@ -70,19 +77,43 @@
     margin: 2px;
 }
 
-pre.prettyprint {
+.entry-content {
 	display: inline-block;
-    width: 93%;
+    width: 92%;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) and (max-width:1200px) {
     .navbar-form.navbar-right:last-child {
         margin-right: 15px;
     }
+    
+    .entry-content {
+        width: 88%;
+    }
+    
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
     .navbar-form.navbar-right:last-child {
         margin-right: 0;
+    }
+    .entry-content {
+        width: 86%;
+    }
+    
+    .clip_button {
+        margin-left: 6px;
+    }
+}
+@media screen and (min-width:540px) and (max-width:767px) {    
+	.entry-content {
+        width: 82%;
+    }
+}
+
+
+@media screen and (max-width:539px) {    
+    .clip_button {
+        display: none;
     }
 }

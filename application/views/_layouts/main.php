@@ -3,15 +3,16 @@
   <head>
     <title>Cheat Sheet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="<?php echo site_url('/res/img/favicon.png') ?>" />
     <link rel="stylesheet" href="<?php echo site_url('/res/css/bootstrap.min.css') ?>" type="text/css"/>
     <link rel="stylesheet" href="<?php echo site_url('/res/prettify/prettify.css') ?>" type="text/css"/>
     <link rel="stylesheet" href="<?php echo site_url('/res/prettify/doxy.css') ?>" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo site_url('/res/font-awesome-4.1.0/css/font-awesome.min.css') ?>" type="text/css"/>
+    <link rel="stylesheet" href="<?php echo site_url('/res/css/font-awesome.min.css') ?>" type="text/css"/>
     <link rel="stylesheet" href="<?php echo site_url('/res/css/custom.css') ?>" type="text/css"/>
     <script type="text/javascript" src="<?php echo site_url('res/js/jquery-2.1.1.min.js') ?>"></script>
     <script type="text/javascript" src="<?php echo site_url('res/js/bootstrap.min.js') ?>"></script>
     <script type="text/javascript" src="<?php echo site_url('res/prettify/prettify.js') ?>"></script>
-    <script type="text/javascript" src="<?php echo site_url('res/zeroclipboard-1.3.5/ZeroClipboard.min.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo site_url('res/js/ZeroClipboard.min.js') ?>"></script>
     <script>
 	    !function ($) {
 	        $(function(){
@@ -31,8 +32,6 @@
 	      		});
 			})
 		}(window.jQuery)
-	  
-
 	</script>
   </head>
   <body>

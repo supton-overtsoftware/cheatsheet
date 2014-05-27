@@ -42,7 +42,7 @@
     font-size: 1.1em;
     font-weight: bold;
     margin-right: 4px;
-    margin-left: 8px;
+    margin-left: 2px;
 }
 
 .entry-desc {
@@ -51,6 +51,12 @@
 
 .entry-content {
     margin-left: 2em;
+    display: inline-block;
+    width: 92%;
+}
+.entry-edit {
+    font-size: 1.3em;
+    vertical-align: middle;
 }
 
 pre.prettyprint {
@@ -75,11 +81,6 @@ pre.prettyprint {
 .label {
     vertical-align: middle;
     margin: 2px;
-}
-
-.entry-content {
-	display: inline-block;
-    width: 92%;
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
@@ -110,7 +111,6 @@ pre.prettyprint {
         width: 82%;
     }
 }
-
 
 @media screen and (max-width:539px) {    
     .clip_button {

@@ -1,6 +1,6 @@
 <script>
 	ZeroClipboard.setDefaults({
-		moviePath: "<?php echo site_url('res/zeroclipboard-1.3.5/ZeroClipboard.swf')?>"
+		moviePath: "<?php echo site_url('res/misc/ZeroClipboard.swf')?>"
 	});
 	$(document).ready(function() {
 		var clip = new ZeroClipboard($(".clip_button"));
@@ -8,7 +8,7 @@
 </script>
 <?php foreach ($entries as $entry) { ?>
 	<div class="entry">
-		<a href="<?php echo site_url('/entries/edit/' . $entry->id)  ?>"><i class="fa fa-pencil-square-o"></i></a>
+		<a href="<?php echo site_url('/entries/edit/' . $entry->id)  ?>" class="entry-edit"><i class="fa fa-pencil-square-o"></i></a>
 		<span class="entry-title"><?php echo $entry->title ?></span>
 		<?php 
 			if (!empty($entry->tags)) {
